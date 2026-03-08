@@ -1,0 +1,34 @@
+# Core Dependencies
+requests==2.31.0
+python-dotenv==1.0.0
+pyYAML==6.0.1
+
+# Azure Libraries
+azure-identity==1.15.0
+azure-mgmt-resource==23.0.1
+msgraph-core==1.0.0
+msal==1.26.0
+
+# AWS Libraries (for AWS IAM integration)
+boto3==1.34.34
+
+# Database
+psycopg2-binary==2.9.9
+SQLAlchemy==2.0.25
+
+# API & Security
+cryptography==42.0.2
+PyJWT==2.8.0
+
+# Utilities
+pandas==2.2.0
+openpyxl==3.1.2
+python-dateutil==2.8.2
+
+# Logging & Monitoring
+colorlog==6.8.2
+
+# Testing
+pytest==8.0.0
+pytest-cov==4.1.0
+responses==0.25.0

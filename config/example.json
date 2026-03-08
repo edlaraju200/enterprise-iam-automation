@@ -1,0 +1,34 @@
+{
+  "sailpoint": {
+    "base_url": "https://your-tenant.identityiq.com",
+    "client_id": "your_client_id",
+    "client_secret": "your_client_secret",
+    "api_version": "v3"
+  },
+  "cyberark": {
+    "base_url": "https://your-pvwa.cyberark.com",
+    "username": "api_user",
+    "auth_type": "CyberArk",
+    "safe_name": "IAM_Automation"
+  },
+  "azure_ad": {
+    "tenant_id": "your-tenant-id",
+    "client_id": "your-client-id",
+    "client_secret": "your-client-secret",
+    "authority": "https://login.microsoftonline.com"
+  },
+  "okta": {
+    "domain": "your-domain.okta.com",
+    "api_token": "your_api_token"
+  },
+  "logging": {
+    "level": "INFO",
+    "format": "json",
+    "output_dir": "logs/"
+  },
+  "automation": {
+    "batch_size": 100,
+    "retry_attempts": 3,
+    "timeout_seconds": 30
+  }
+}
